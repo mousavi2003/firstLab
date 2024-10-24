@@ -1,6 +1,5 @@
-# firstlab
-
-# 98109901 Komail Hmadih
+firstlab
+981099901- Komiel Hmaih
 
 1. What is the .git directory? What information is stored in it? With which command is it created?
 
@@ -186,7 +185,7 @@ List the stashed changes:
 git stash list
 
 Output:
-stash@{0}: WIP on main: Add initial content to file.txt
+stash@{}: WIP on main: Add initial content to file.txt
 
 Reapply the stashed changes:
 git stash pop
@@ -199,7 +198,7 @@ Changes not staged for commit:
 modified: file.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-Dropped refs/stash@{0} (abc1234...)
+Dropped refs/stash@{} (abc1234...)
 
 The changes have been reapplied to the working directory and the stash has been dropped.
 Therefore:
