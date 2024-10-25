@@ -41,10 +41,20 @@ firstlab
 ![image](./images/image16.png)
 
 
-برای اعمال محدودیت بر روی شاخه main باید مراحل زیر را طی کرد:
+حل مشکل conflict در حین merge کردن دو شاخه:
+
+![image](./images/image17.png)
+
+
+
+
+برای اعمال محدودیت بر روی شاخه main باید مراحل زیر را طی کرد:(این قسمت از gpt کمک گرفته شد تا بدانم چگونه اعمال محدودیت کنم که با سرچ هم به همین نتیجه می‌رسیدم.)
 
 در نوار بالایی صفحه، بر روی تب "Settings" کلیک کرده و در تنظیمات به قسمت branch می‌رویم. در قسمت "Branch protection rules"، بر روی "Add rule" کلیک شود. در قسمت "Branch name pattern"، نام main وارد گردد تا این قانون فقط بر روی شاخه main اعمال شود و در ادامه گزینه Require pull request reviews before merging فعال شود.سپس تغییرات ذخیره شود.
 
+
+
+پاسخ به سوالات(قسمت گزارش آزمایش با سیده فاطمه موسوی و قسمت پاسخ به سوالات با آقای کمیل حماده بود.)
 
 1. What is the .git directory? What information is stored in it? With which command is it created?
 
