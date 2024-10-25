@@ -3,7 +3,19 @@ firstlab
 400105252- Seyydeh Fatemeh Mousavi
 
 **توضیح آزمایش**
-ابتدا به سایت github رفته و یک repository‌ ساختیم و آن را با دستور git clone <repo address> کلون کردیم. 
+
+ابتدا به سایت github رفته و یک repository‌ ساختیم و آن را با دستور git clone repositoryAddres کلون کردیم و سپس با دستور  git checkout -b gh-pages یک branch جدید ساختیم و روی آن branch قرار گرفتیم. با استفاده از دستور git status می‌توان متوجه شد روی کدام branch قرار داریم.
+
+![image](https://github.com/user-attachments/assets/d8e48002-cfeb-44c6-8753-66b16fa3ec7b)
+
+![image](https://github.com/user-attachments/assets/7b8dc8ad-6475-43b9-8245-5d488c41df19)
+
+سپس با دستور . git add و در ادامه با دستور "git commit -m "your commit به کامیت کردن فایل‌ها می‌پردازیم و فایل‌های index.html, style.css, script.js را کامیت می‌کنیم و در ادامه با دستور git push‌ تغییرات را روی برنچ gh-pages پوش می‌کنیم. در ادامه برای قرار دادن سایت خود روی github actions به settings رفته و در بخش Code and automation، گزینه Pages را انتخاب می‌کنیم. سپس در قسمت Build and deployment قسمت source را روی Deploy from a branch تنظیم کرده و در قسمت branch، نام branch ای که در آن فایل‌های static ما قرار دارند را ذخیره می‌کنیم. سپس دکمه save را انتخاب کرده و کمی صبر می‌کنیم و در ادامه به آدرس https://USERNAME.github.io/repoName/ محتویات سایت ما قابل دیدن است که این آدرس برای پروژه ما به صورت https://mousavi2003.github.io/firstLab/ می‌باشد.
+
+![image](https://github.com/user-attachments/assets/a9b33dec-be25-4e00-9cce-abcb81ed9be2)
+
+
+
 
 1. What is the .git directory? What information is stored in it? With which command is it created?
 
