@@ -3,7 +3,8 @@ document.getElementById('myButton').addEventListener('click', function() {
 });
 
 document.getElementById('nameForm').addEventListener('submit', function(event) {
-
+    event.preventDefault();
+    
     const name = document.getElementById('nameInput').value; 
     const greetingMessage = `welcome ${name}!`;
 
