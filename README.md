@@ -37,23 +37,11 @@ firstlab
 ![image](./images/image14.png)
 ![image](./images/image15.png)
 ![image](./images/image16.png)
+
+
 برای اعمال محدودیت بر روی شاخه main باید مراحل زیر را طی کرد:
 
-در نوار بالایی صفحه، بر روی تب "Settings" کلیک شود.
-
-در نوار کناری سمت چپ، به بخش "Branches" هدایت گردد.
-
-در قسمت "Branch protection rules"، بر روی "Add rule" کلیک شود.
-
-تنظیمات محافظت از شاخه:
-
-    در قسمت "Branch name pattern"، نام main وارد گردد تا این قانون فقط بر روی شاخه main اعمال شود.
-    گزینه‌های زیر باید فعال شوند:
-        Require pull request reviews before merging: این گزینه فعال شود تا قبل از ادغام PR، نیاز به تایید (Review) وجود داشته باشد.
-        Require status checks to pass before merging: اگر قصد وجود دارد که فقط PRهایی که تست‌های آن‌ها موفق بوده‌اند، ادغام شوند، این گزینه باید فعال گردد.
-        Include administrators: در صورتی که می‌خواهند قوانین محافظت از شاخه شامل مدیران نیز باشد، این گزینه باید فعال شود.
-
-ذخیره تغییرات: پس از تنظیم گزینه‌ها، بر روی "Create" یا "Save changes" کلیک شود.
+در نوار بالایی صفحه، بر روی تب "Settings" کلیک کرده و در تنظیمات به قسمت branch می‌رویم. در قسمت "Branch protection rules"، بر روی "Add rule" کلیک شود. در قسمت "Branch name pattern"، نام main وارد گردد تا این قانون فقط بر روی شاخه main اعمال شود و در ادامه گزینه Require pull request reviews before merging فعال شود.سپس تغییرات ذخیره شود.
 
 
 1. What is the .git directory? What information is stored in it? With which command is it created?
