@@ -1,5 +1,9 @@
 firstlab
 981099901- Komiel Hmaih
+400105252- Seyydeh Fatemeh Mousavi
+
+**توضیح آزمایش**
+ابتدا به سایت github رفته و یک repository‌ ساختیم و آن را با دستور git clone <repo address> کلون کردیم. 
 
 1. What is the .git directory? What information is stored in it? With which command is it created?
 
